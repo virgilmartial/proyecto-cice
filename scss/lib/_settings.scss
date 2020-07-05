@@ -1,0 +1,189 @@
+//VARIABLES PARA CONDICIONALES
+$include-styleguide: true;
+$include-reset: true;
+$include-layout: true;
+$include-utilities: true;
+$include-fonts: true;
+$include-header: true;
+$include-links: true;
+$include-buttons: true;
+$include-forms: true;
+$include-lists: true ;
+$include-dark-bg-mode: true;
+$include-dark-mode-buttons: true;
+
+// COLOR PALETTE
+$color-bg1: #fff;
+$color-txt1: #111;
+$color-bg2: #80367A;
+$color-txt2: #fff;
+$color-1: #1891a2;
+$color-2: #19bab3;
+$color-3: #17d4c4;
+$color-4: #fd5d5f;
+$color-41: #e97274;
+
+$color-5: #e2ad43;
+$color-6: #696562;
+$color-7: #837c7d;
+$color-8: #bdb7b8;
+$color-9: #fdfcfd;
+$color-10: #1a161a;
+
+// COLOR PALETTE COMPLENTARY
+$color-black: #111;
+$color-white: #fff;
+$color-grey-superdark: #232323;
+$color-grey-dark: #717171;
+$color-grey: #A5A5A5;
+$color-grey-light: #C7C7C7;
+$color-grey-superlight: #EAEAEA;
+$color-error: #DD0808;
+$color-warning: #E29C00;
+$color-success: #489848;
+$color-info: #0AB6EA;
+
+// BACKGROUND COLOR
+
+.bgc1{
+   background-color: $color-1;
+}
+.bgc2{
+   background-color: $color-2;
+}
+.bgc3{
+   background-color: $color-3;
+}
+.bgc4{
+   background-color: $color-4;
+}
+.bgc5{
+   background-color: $color-5;
+}
+.bgc6{
+   background-color: $color-6;
+}
+.bgc7{
+   background-color: $color-7;
+}
+.bgc8{
+   background-color: $color-8;
+}
+.bgc9{
+   background-color: $color-9;
+}
+.bgc10{
+   background-color: $color-10;
+}
+
+
+//COLORES
+
+.c1{
+   color: $color-1;
+}
+.c2{
+   color: $color-2;
+}
+.c3{
+   color: $color-3;
+}
+.c4{
+   color: $color-4;
+}
+.c5{
+   color: $color-5;
+}
+.c6{
+   color: $color-6;
+}
+.c7{
+   color: $color-7;
+}
+.c8{
+   color: $color-8;
+}
+.c9{
+   color: $color-9;
+}
+.c10{
+   color: $color-10;
+}
+
+
+
+// SITE SETTINGS
+$width: 100%;
+$max-width: 1620px;
+$min-width: 320px;
+
+$font-size: 16px;
+$line-height: 1.8em;
+
+$font-size-small: .85em;
+$line-height-small: 1.3em;
+
+$margin-between-paragraphs: 1.6em;
+
+$list-style-position: inside;
+$list-style-type: none;
+
+$h1: 44px/$font-size;
+$h2: 36px/$font-size;
+$h3: 28px/$font-size;
+$h4: 24px/$font-size;
+$h5: 20px/$font-size;
+$h6: 18px/$font-size;
+
+$border-width: 1px;
+$border-style: solid;
+$border-radius: 10px;
+
+$icoWidth: 30px;
+$icoHeight: 30px;
+$icoWidth-small: 20px;
+$icoHeight-small: 20px;
+
+$transition-timeIn: .3s;
+$transition-timeOut: .5s;
+
+// BUTTONS
+$btn-paddHeight: 1rem;
+$btn-paddWidth: 1rem;
+$btn-font-size: 1rem;
+$btn-border-radius: $border-radius;
+$btn-border-width: 1px;
+$btn-border-style: solid;
+
+// MEDIA QUERIES
+$media-xl: 1690px;
+$media-l: 1390px;
+$media-m: 1024px;
+$media-s: 768px;
+$media-xs: 590px;
+$media-xxs: 490px;
+
+// FORMS
+$input-border-width: 1px;
+$input-border-radius: 2px;
+$input-paddHeight: 0.5rem;
+$input-paddWidth: 0.5rem;
+
+$checkbox-size: 20px;
+$checkbox-border-width: 1px;
+$checkbox-border-radius: 2px;
+$checkbox-bg-check: $color-1;
+
+
+
+$z-index: (
+   subcero: -1,
+   sub: 20,
+   inf: 50,
+   normal: 100,
+   sup: 500,
+   sticky: 1000
+);
+
+
+

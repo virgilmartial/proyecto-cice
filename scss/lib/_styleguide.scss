@@ -1,0 +1,9 @@
+@if $include-styleguide == true {
+
+   h5.sg {
+      color: $color-grey;
+      text-transform: uppercase;
+      text-decoration: underline;
+   }
+
+}

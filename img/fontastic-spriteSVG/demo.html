@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Untitled font 1 SVG Sprite</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style type="text/css">
+  html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;font-size:100%;vertical-align:baseline}
+  body{line-height:1;color:#000;background:#fff}
+  ol,ul{list-style:none}
+  table{border-collapse:separate;border-spacing:0;vertical-align:middle}
+  caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}
+  a img{border:none}
+  *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+  body{font-family:'Dosis','Tahoma',sans-serif}
+  .container{margin:15px auto;width:80%}
+  h1{margin:40px 0 20px;font-weight:700;font-size:38px;line-height:32px;color:#fb565e}
+  h2{font-size:18px;padding:0 0 21px 5px;margin:45px 0 0 0;text-transform:uppercase;font-weight:500; color: #fb565e;}
+  p {margin: 10px 0 ; line-height:1.3em; color: #454545;}
+  .small{font-size:14px;color:#a5adb4;}
+  .small a{color:#a5adb4;}
+  .small a:hover{color:#fb565e}
+  .glyphs{margin:0 0 60px 0;padding:30px 0 20px 30px;color:rgba(0,0,0,0.8);border:1px solid #d8e0e5;-webkit-border-radius:3px;border-radius:3px;}
+  .glyphs li{margin:0 30px 20px 0;padding:0;display:inline-block;overflow:hidden}
+  .glyphs input{margin:0;margin-top:5px;padding:8px;line-height:16px;font-size:16px;display:block;width:150px;height:40px;border:1px solid #d8e0e5;-webkit-border-radius:5px;border-radius:5px;background:#fff;outline:0;float:right;}
+  .glyphs input:focus{border:1px solid #fbde4a;-webkit-box-shadow:inset 0 0 3px #fbde4a;box-shadow:inset 0 0 3px #fbde4a}
+  .glyphs input:hover{-webkit-box-shadow:inset 0 0 3px #fbde4a;box-shadow:inset 0 0 3px #fbde4a}
+
+  /*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block; padding: 0.5em;
+  color: #333;
+  background: #f8f8f8
+}
+
+.hljs-comment,
+.hljs-template_comment,
+.diff .hljs-header,
+.hljs-javadoc {
+  color: #998;
+  font-style: italic
+}
+
+.hljs-keyword,
+.css .rule .hljs-keyword,
+.hljs-winutils,
+.javascript .hljs-title,
+.nginx .hljs-title,
+.hljs-subst,
+.hljs-request,
+.hljs-status {
+  color: #333;
+  font-weight: bold
+}
+
+.hljs-number,
+.hljs-hexcolor,
+.ruby .hljs-constant {
+  color: #099;
+}
+
+.hljs-string,
+.hljs-tag .hljs-value,
+.hljs-phpdoc,
+.tex .hljs-formula {
+  color: #d14
+}
+
+.hljs-title,
+.hljs-id,
+.coffeescript .hljs-params,
+.scss .hljs-preprocessor {
+  color: #900;
+  font-weight: bold
+}
+
+.javascript .hljs-title,
+.lisp .hljs-title,
+.clojure .hljs-title,
+.hljs-subst {
+  font-weight: normal
+}
+
+.hljs-class .hljs-title,
+.haskell .hljs-type,
+.vhdl .hljs-literal,
+.tex .hljs-command {
+  color: #458;
+  font-weight: bold
+}
+
+.hljs-tag,
+.hljs-tag .hljs-title,
+.hljs-rules .hljs-property,
+.django .hljs-tag .hljs-keyword {
+  color: #000080;
+  font-weight: normal
+}
+
+.hljs-attribute,
+.hljs-variable,
+.lisp .hljs-body {
+  color: #008080
+}
+
+.hljs-regexp {
+  color: #009926
+}
+
+.hljs-symbol,
+.ruby .hljs-symbol .hljs-string,
+.lisp .hljs-keyword,
+.tex .hljs-special,
+.hljs-prompt {
+  color: #990073
+}
+
+.hljs-built_in,
+.lisp .hljs-title,
+.clojure .hljs-built_in {
+  color: #0086b3
+}
+
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-pi,
+.hljs-doctype,
+.hljs-shebang,
+.hljs-cdata {
+  color: #999;
+  font-weight: bold
+}
+
+.hljs-deletion {
+  background: #fdd
+}
+
+.hljs-addition {
+  background: #dfd
+}
+
+.diff .hljs-change {
+  background: #0086b3
+}
+
+.hljs-chunk {
+  color: #aaa
+}
+
+
+  .tip {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+  .tip > .number {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 12px;
+    padding: 3px 7px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #fb565e;
+    color: #fff;
+    text-align: center;
+  }
+  code {
+    background: #faf9ff;
+    border: 1px solid #bab9c0;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 0 4px;
+    font-size: 14px;
+  }
+  pre code {
+    display: block;
+    padding: 4px 6px;
+  }
+
+  [class^="icon-"],
+  [class*=" icon-"] {
+    margin: 10px;
+    height: 32px;
+    width: 32px;
+    float: left;
+    fill: currentColor;
+  }
+  </style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  
+    <symbol id="icon-angle-down" viewBox="0 0 512 512">
+      <path d="m399 210c0 3-1 5-3 7l-133 133c-2 2-5 3-7 3-2 0-5-1-7-3l-133-133c-2-2-3-4-3-7 0-2 1-4 3-6l15-15c1-1 4-2 6-2 3 0 5 1 7 2l112 113 112-113c2-1 4-2 7-2 2 0 5 1 6 2l15 15c2 2 3 4 3 6z"/>
+    </symbol>
+  
+    <symbol id="icon-eye" viewBox="0 0 512 512">
+      <path d="m475 274c-29-45-65-78-108-101 11 20 17 42 17 65 0 35-13 65-38 90-25 25-55 38-90 38-35 0-65-13-90-38-25-25-38-55-38-90 0-23 6-45 17-65-43 23-79 56-108 101 25 39 57 70 95 94 38 23 79 34 124 34 45 0 86-11 124-34 38-24 70-55 95-94z m-205-109c0-4-2-7-4-10-3-3-6-4-10-4-24 0-44 8-61 25-17 17-26 38-26 62 0 4 1 7 4 9 3 3 6 4 10 4 4 0 7-1 10-4 2-2 4-5 4-9 0-17 5-31 17-42 12-12 26-18 42-18 4 0 7-1 10-4 2-2 4-6 4-9z m242 109c0 7-2 13-6 20-26 44-62 79-107 105-45 27-93 40-143 40-50 0-98-13-143-40-45-26-81-61-107-105-4-7-6-13-6-20 0-6 2-13 6-19 26-44 62-79 107-106 45-26 93-39 143-39 50 0 98 13 143 39 45 27 81 62 107 106 4 6 6 13 6 19z"/>
+    </symbol>
+  
+    <symbol id="icon-eyeoff" viewBox="0 0 512 512">
+      <path d="m159 381l22-40c-17-12-30-27-39-45-9-19-14-38-14-58 0-23 6-45 17-65-43 23-79 56-108 101 31 49 72 85 122 107z m111-216c0-4-2-7-4-10-3-3-6-4-10-4-24 0-44 8-61 25-17 17-26 38-26 62 0 4 1 7 4 9 3 3 6 4 10 4 4 0 7-1 10-4 2-2 4-5 4-9 0-17 5-31 17-42 12-12 26-18 42-18 4 0 7-1 10-4 2-2 4-6 4-9z m103-55c0 1 0 2 0 3-20 35-50 89-90 161-40 72-70 126-90 162l-14 26c-2 3-5 4-8 4-2 0-15-6-38-20-3-2-5-4-5-8 0-2 4-10 13-25-28-12-53-28-76-49-23-21-43-44-59-70-4-6-6-12-6-20 0-7 2-14 6-19 29-45 65-81 108-106 44-26 91-39 142-39 17 0 34 1 51 5l16-28c2-3 4-5 8-5 1 0 3 1 5 2 2 1 5 3 9 4 3 2 6 4 9 6 3 1 6 3 9 5 3 2 5 3 6 3 3 2 4 5 4 8z m11 128c0 26-8 50-23 72-15 22-35 38-59 47l80-143c1 8 2 16 2 24z m128 36c0 7-2 14-6 20-7 12-18 26-31 41-28 33-62 59-99 77-38 18-78 27-120 27l21-38c41-3 78-16 112-39 35-23 63-52 86-88-21-34-48-62-80-84l18-32c18 12 35 27 52 44 17 17 30 34 41 53 4 6 6 13 6 19z"/>
+    </symbol>
+  
+    <symbol id="icon-x" viewBox="0 0 512 512">
+      <path d="m426 378c0 7-3 14-8 19l-39 39c-5 5-12 8-20 8-7 0-14-3-19-8l-84-84-84 84c-5 5-12 8-19 8-8 0-15-3-20-8l-39-39c-5-5-8-12-8-19 0-8 3-14 8-20l84-84-84-84c-5-5-8-12-8-19 0-8 3-14 8-20l39-38c5-6 12-8 20-8 7 0 14 2 19 8l84 84 84-84c5-6 12-8 19-8 8 0 15 2 20 8l39 38c5 6 8 12 8 20 0 7-3 14-8 19l-84 84 84 84c5 6 8 12 8 20z"/>
+    </symbol>
+  
+    <symbol id="icon-check" viewBox="0 0 512 512">
+      <path d="m477 162c0 7-2 14-8 19l-206 207-39 39c-6 5-12 8-20 8-7 0-14-3-19-8l-142-142c-6-6-8-12-8-20 0-7 2-14 8-19l38-39c6-5 12-8 20-8 7 0 14 3 19 8l84 84 188-188c5-5 12-8 19-8 8 0 14 3 20 8l38 39c6 6 8 12 8 20z"/>
+    </symbol>
+  
+    <symbol id="icon-smile" viewBox="0 0 512 512">
+      <path d="m361 307c-7 23-21 42-40 56-19 14-41 21-65 21-24 0-46-7-65-21-19-14-33-33-40-56-1-5-1-9 2-14 2-4 5-7 10-9 5-1 10-1 14 1 5 3 8 6 9 11 5 16 14 28 27 37 13 10 27 14 43 14 16 0 30-4 43-14 13-9 22-21 27-37 1-5 4-8 9-11 4-2 9-2 14-1 5 2 8 5 10 9 3 5 3 9 2 14z m-142-124c0 10-3 19-10 26-7 7-16 10-26 10-10 0-19-3-26-10-7-7-11-16-11-26 0-10 4-19 11-26 7-7 16-11 26-11 10 0 19 4 26 11 7 7 10 16 10 26z m147 0c0 10-4 19-11 26-7 7-16 10-26 10-10 0-19-3-26-10-7-7-10-16-10-26 0-10 3-19 10-26 7-7 16-11 26-11 10 0 19 4 26 11 7 7 11 16 11 26z m73 73c0-25-5-48-15-71-9-23-22-42-39-58-16-17-35-30-58-39-23-10-46-15-71-15-25 0-48 5-71 15-23 9-42 22-58 39-17 16-30 35-39 58-10 23-15 46-15 71 0 25 5 48 15 71 9 23 22 42 39 58 16 17 35 30 58 39 23 10 46 15 71 15 25 0 48-5 71-15 23-9 42-22 58-39 17-16 30-35 39-58 10-23 15-46 15-71z m36 0c0 40-9 77-29 110-20 34-46 60-80 80-33 20-70 29-110 29-40 0-77-9-110-29-34-20-60-46-80-80-20-33-29-70-29-110 0-40 9-77 29-110 20-34 46-60 80-80 33-20 70-29 110-29 40 0 77 9 110 29 34 20 60 46 80 80 20 33 29 70 29 110z"/>
+    </symbol>
+  
+</svg>
+
+
+<div class="container">
+  <p class="small">This SVG sprite was created with <a href="http://fontastic.me/">Fontastic</a></p>
+
+  <h2>icons reference</h2>
+  <ul class="glyphs">
+    
+    <li>
+      <svg class="icon-angle-down">
+        <use xlink:href="#icon-angle-down"></use>
+      </svg>
+
+      <input type="text" readonly="readonly" value='<svg class="icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg>'>
+    </li>
+    
+    <li>
+      <svg class="icon-eye">
+        <use xlink:href="#icon-eye"></use>
+      </svg>
+
+      <input type="text" readonly="readonly" value='<svg class="icon-eye"><use xlink:href="#icon-eye"></use></svg>'>
+    </li>
+    
+    <li>
+      <svg class="icon-eyeoff">
+        <use xlink:href="#icon-eyeoff"></use>
+      </svg>
+
+      <input type="text" readonly="readonly" value='<svg class="icon-eyeoff"><use xlink:href="#icon-eyeoff"></use></svg>'>
+    </li>
+    
+    <li>
+      <svg class="icon-x">
+        <use xlink:href="#icon-x"></use>
+      </svg>
+
+      <input type="text" readonly="readonly" value='<svg class="icon-x"><use xlink:href="#icon-x"></use></svg>'>
+    </li>
+    
+    <li>
+      <svg class="icon-check">
+        <use xlink:href="#icon-check"></use>
+      </svg>
+
+      <input type="text" readonly="readonly" value='<svg class="icon-check"><use xlink:href="#icon-check"></use></svg>'>
+    </li>
+    
+    <li>
+      <svg class="icon-smile">
+        <use xlink:href="#icon-smile"></use>
+      </svg>
+
+      <input type="text" readonly="readonly" value='<svg class="icon-smile"><use xlink:href="#icon-smile"></use></svg>'>
+    </li>
+    
+  </ul>
+
+  <h2>How to add SVG sprite icons to your project?</h2>
+
+<div class="tip"><p></p><div class="number">1</div>Upload the icons.svg file to your server. In our examples below we assume that the sprite file will be available at: <code>http://yoursite.com/images/icons.svg</code><p></p></div><div class="tip"><p></p><div class="number">2</div>Go to "Icons Reference" and choose an icon that you want to have on your HTML page. Then click and copy its markup to your HTML page. For instance, the markup for a twitter icon could look like this:<p></p><pre><code><span class="hljs-tag">&lt;<span class="hljs-title">svg</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"icon-twitter"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">use</span> <span class="hljs-attribute">xlink:href</span>=<span class="hljs-value">"#icon-twitter"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">use</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">svg</span>&gt;</span>
+</code></pre></div><div class="tip"><p></p><div class="number">3</div>Now it's time to add the sprite file URL to the icon markup. In the example below, the URL is <code>/images/icons.svg</code>. So now the twitter icon markup could look like this:<p></p><pre><code><span class="hljs-tag">&lt;<span class="hljs-title">svg</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"icon-twitter"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">use</span> <span class="hljs-attribute">xlink:href</span>=<span class="hljs-value">"/images/icons.svg#icon-twitter"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">use</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">svg</span>&gt;</span>
+</code></pre></div><div class="tip"><p></p><div class="number">4</div>Add the code below to the CSS file that you use for your html page:<p></p><pre><code><span class="hljs-attr_selector">[class^="icon-"]</span>, <span class="hljs-attr_selector">[class*=" icon-"]</span> <span class="hljs-rules">{
+    <span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">32</span>px</span></span>;
+    <span class="hljs-rule"><span class="hljs-attribute">width</span>:<span class="hljs-value"> <span class="hljs-number">32</span>px</span></span>;
+    <span class="hljs-rule"><span class="hljs-attribute">display</span>:<span class="hljs-value"> inline-block</span></span>;
+    <span class="hljs-rule"><span class="hljs-attribute">fill</span>:<span class="hljs-value"> currentColor</span></span>;
+<span class="hljs-rule">}</span></span>
+</code></pre><p>You can use <code>height</code> and <code>width</code> properties to control icon size. To define icon color use <code>fill</code> property. Note: <code>currentColor</code> keyword inherits the color value of a parent element.</p></div><div class="tip"><p></p><div class="number">5</div>For IE capability you can use a great polyfill: <a href="https://github.com/jonathantneal/svg4everybody" target="blank">svg4everybody</a><p></p></div><div class="tip"><p> <b>Remember: </b>with Icon Cloud you don't have to worry about IE capability, the sprite file and other stuff. We'll take care of all of that for you, just click the "Publish" button and give it a try.</p></div>
+
+</div>
+
+<script type="text/javascript">
+(function() {
+  var glyphs, _i, _len, _ref;
+
+  _ref = document.getElementsByClassName('glyphs');
+  for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+    glyphs = _ref[_i];
+    glyphs.addEventListener('click', function(event) {
+      if (event.target.tagName === 'INPUT') {
+        return event.target.select();
+      }
+    });
+  }
+
+}).call(this);
+</script>
+</body>
+</html>

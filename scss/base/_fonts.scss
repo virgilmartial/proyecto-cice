@@ -1,0 +1,24 @@
+@if $include-fonts == true {
+
+@font-face {
+   font-family: principal;
+   //font-display: swap;
+   src: url(../typo/Roboto-Black.ttf)
+}
+@font-face {
+   font-family: secondary;
+   //font-display: swap;
+   src: url(../typo/Montserrat-Light.ttf)
+}
+@font-face {
+   font-family: complementary;
+   //font-display: swap;
+   src: url(../typo/Montserrat-Regular.ttf)
+}
+@font-face {
+   font-family: icons;
+   //font-display: swap;
+   src: url(../typo/icons-font.ttf)
+}
+
+}

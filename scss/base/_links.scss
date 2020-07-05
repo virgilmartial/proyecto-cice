@@ -1,0 +1,49 @@
+@if $include-links == true {
+
+a {
+   color: $color-6;
+   transition: $transition-timeOut ease-in-out;
+   &:hover {
+      color: $color-7;
+      transition: $transition-timeIn ease-in-out;
+   }
+   &:active {
+      color: $color-7;
+      transition: none;
+   }
+   //icono puestos en links con una tipografía
+   &::before {          
+      content: "";            
+      font-family: icons;            
+      font-size: 1em;            
+      color: $color-5;        
+   }
+}
+
+// LINKS CON FONDO OSCURO
+@if $include-dark-bg-mode == true {
+
+.dark-bg {
+   a {
+      color: $color-txt2;
+      text-decoration: underline;
+      &:hover {
+         color: $color-5;
+      }
+      &:active {
+         color: $color-3;
+      }
+   }
+}
+
+}
+
+}
+
+
+
+.nav-ul{
+
+      color: red;
+ 
+}

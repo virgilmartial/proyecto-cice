@@ -1,0 +1,380 @@
+@if $include-buttons == true {
+
+%btn {
+   width: initial;
+   cursor: pointer;
+   display: inline-block;
+   padding:$btn-paddHeight/1.5 $btn-paddWidth/1.5 ;
+   font-size: $btn-font-size;
+   position: relative;
+   z-index: 250;
+   @media(max-width: $media-m){
+      padding:$btn-paddHeight/1.5 $btn-paddWidth/1.5;
+      font-size: $btn-font-size/1.8;
+      
+   }
+   font-family: principal;
+   
+  // border-radius: $btn-border-radius;
+   border: $btn-border-width*1.5 $btn-border-style;
+   line-height: $line-height-small;
+   transition: $transition-timeOut ease-in-out;
+   text-decoration: none;
+   white-space: nowrap;
+   //margin: 10px;
+   &:hover {
+      transition: $transition-timeIn ease-in-out;
+   }
+   &:active {
+      transition: none;
+   }
+ 
+}
+.in-btn{
+   display: block;
+   background-color: $color-1;
+   position: absolute;
+   width: 0%;
+   height: 100%;
+   top: 0;
+   right: 0;
+   opacity: 1;
+   transition: $transition-timeIn/2 ease-in-out;
+
+}
+.btn--a,
+a.btn--a,
+input.btn--a {
+   @extend %btn;
+   background-color: $color-4;
+   color: $color-white;
+   border-color: $color-4;
+   &:hover {
+      background-color: $color-41;
+      border-color: $color-4;
+      color: $color-white;
+      .ico {
+         fill: $color-2;
+      }
+   }
+   &:active {
+      background-color: $color-1;
+      border-color: $color-1;
+   }
+   .ico {
+      fill: $color-white;
+   }
+}
+
+.btn--aa,
+a.btn--aa,
+input.btn--aa {
+   @extend %btn;
+   background-color: $color-9;
+   color: $color-6;
+   border-color: $color-9;
+   position: relative;
+   z-index: 5;
+   &:hover {
+      background-color: $color-8;
+      border-color: $color-9;
+      color: $color-6;
+      .ico {
+         fill: $color-2;
+      }
+      .in-btn{
+         width: 100%;
+         transition: $transition-timeIn/1.5 ease-in-out;
+         background-color: $color-3;
+         color: $color-6;
+         height: 100%;
+       
+       }
+       .txt-btn{
+          position: relative;
+          z-index: 10;
+          color: $color-9;
+       }
+   }
+   &:active {
+      background-color: $color-3;
+      border-color: $color-3;
+   }
+   .ico {
+      fill: $color-white;
+   }
+}
+.btn--b,
+a.btn--b,
+input.btn--b {
+   @extend %btn;
+   background-color: $color-6;
+   color: $color-white;
+   border-color: $color-6;
+   &:hover {
+      background-color: $color-7;
+      border-color: $color-7;
+      color: $color-white;
+      .ico {
+         fill: $color-2;
+      }
+   }
+   &:active {
+      background-color: $color-1;
+      border-color: $color-1;
+   }
+   .ico {
+      fill: $color-white;
+   }
+}
+.btn--bb,
+a.btn--bb,
+input.btn--bb {
+   @extend %btn;
+   background-color: $color-8;
+   color: $color-6;
+   border-color: $color-6;
+   &:hover {
+      background-color: $color-7;
+      border-color: $color-6;
+      color: $color-6;
+      .ico {
+         fill: $color-2;
+      }
+      .in-btn{
+         width: 80%;
+        
+      }
+   
+   }
+   &:active {
+      background-color: $color-1;
+      border-color: $color-1;
+   }
+   .ico {
+      fill: $color-white;
+   }
+}
+
+
+.btn--c,
+a.btn--c,
+input.btn--c {
+   @extend %btn;
+   background-color: $color-41;
+   color: $color-9;
+   border-color: $color-41;
+   position: relative;
+   &:hover {
+      background-color: $color-4;
+      border-color: $color-4;
+      color: $color-9;
+      z-index: 5;
+      .ico {
+         fill: $color-2;
+      }
+      .in-btn{
+        width: 100%;
+        transition: $transition-timeIn/2 ease-in-out;
+        background-color: $color-41;   
+      }
+      .txt-btn{
+         position: relative;
+         color: $color-9;
+         z-index: 10;
+      }
+   }
+   &:active {
+      background-color: $color-3;
+      border-color: $color-3;
+   }
+   .ico {
+      fill: $color-white;
+   }
+}
+
+
+
+
+
+.btn--disabled,
+a.btn--disabled,
+input.btn--disabled {
+   @extend %btn;
+   background-color: rgba($color-5, .25);
+   color: $color-white;
+   pointer-events: none;
+}
+
+
+
+
+// BOTONES CON FONDO OSCURO
+@if $include-dark-mode-buttons == true {
+
+.dark-bg {
+   .btn--primary,
+   a.btn--primary,
+   input.btn--primary {
+      background-color: $color-2;
+      color: $color-white;
+      border-color: $color-2;
+      &:hover {
+         background-color: $color-5;
+         border-color: $color-5;
+      }
+      &:active {
+         background-color: $color-3;
+         border-color: $color-3;
+      }
+   }
+
+
+   .btn--secondary,
+   a.btn--secondary,
+   input.btn--secondary {
+      background-color: $color-4;
+      color: $color-white;
+      border-color: $color-4;
+      &:hover {
+         background-color: $color-5;
+         border-color: $color-5;
+      }
+      &:active {
+         background-color: $color-3;
+         border-color: $color-3;
+      }
+   }
+
+   .btn--disabled,
+   a.btn--disabled,
+   input.btn--disabled {
+      background-color: rgba($color-5, .25);
+      color: $color-bg2;
+   }
+
+   
+
+   
+}
+
+}
+
+
+}
+
+
+
+.btn--bbb,
+a.btn--bbb,
+input.btn--bbb {
+   @extend %btn;
+   background-color: transparent;
+   color: $color-4;
+   border-color: $color-4;
+   position: relative;
+   &:hover {
+      background-color: transparent;
+      border-color: $color-4;
+      color: transparent;
+      z-index: 5;
+      .ico {
+         fill: $color-2;
+      }
+      .in-btn{
+        width: 100%;
+        transition: $transition-timeIn/2 ease-in-out;
+        background-color: $color-41;   
+      }
+      .txt-btn{
+         position: relative;
+         color: $color-9;
+         z-index: 10;
+      }
+   }
+   &:active {
+      background-color: $color-3;
+      border-color: $color-3;
+   }
+   .ico {
+      fill: $color-white;
+   }
+}
+
+
+
+
+
+
+.btn--cc,
+a.btn--cc,
+input.btn--cc {
+   @extend %btn;
+   background-color: $color-3;
+   color: $color-9;
+   border-color: $color-3;
+   position: relative;
+   &:hover {
+      background-color: $color-3;
+      border-color: $color-3;
+      color: $color-3;
+      z-index: 5;
+      .ico {
+         fill: $color-2;
+      }
+      .in-btn{
+        width: 100%;
+        transition: $transition-timeIn/2 ease-in-out;
+        background-color: $color-9;   
+      }
+      .txt-btn{
+         position: relative;
+         color: $color-3;
+         z-index: 10;
+      }
+   }
+   &:active {
+      background-color: $color-3;
+      border-color: $color-3;
+   }
+   .ico {
+      fill: $color-white;
+   }
+}
+
+.btn--ccc,
+a.btn--ccc,
+input.btn--ccc {
+   @extend %btn;
+   background-color: $color-9;
+   color: $color-3;
+   border-color: $color-3;
+   position: relative;
+   &:hover {
+      background-color: $color-9;
+      border-color: $color-3;
+      color: $color-3;
+      z-index: 5;
+      .ico {
+         fill: $color-2;
+      }
+      .in-btn{
+        width: 100%;
+        transition: $transition-timeIn/2 ease-in-out;
+        background-color: $color-3;   
+      }
+      .txt-btn{
+         position: relative;
+         color: $color-9;
+         z-index: 10;
+      }
+   }
+   &:active {
+      background-color: $color-3;
+      border-color: $color-3;
+   }
+   .ico {
+      fill: $color-white;
+   }
+}
+

@@ -1,0 +1,173 @@
+@if $include-utilities == true {
+
+%flex {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+$flexElements: (
+   "flex": flex-start, 
+   "flex--center": center, 
+   "flex--end": flex-end, 
+   "flex--between": space-between, 
+   "flex--around": space-around, 
+   "flex--evenly": space-evenly
+);
+
+@each $nameFlex, $valorJustify in $flexElements {
+   .#{$nameFlex} {
+      @extend %flex;
+      justify-content: $valorJustify;
+   }
+}
+
+.inColumns {
+   flex-direction: column;
+}
+.vStart {
+   align-items: flex-start;
+}
+.vCenter {
+   align-items: center;
+}
+.vEnd {
+   align-items: flex-end;
+}
+.noWrap {
+   flex-wrap: nowrap;
+}
+.center {
+   margin-left: auto;
+   margin-right: auto;
+}
+.txtc{
+   text-align: center;
+}
+.txtl{
+   text-align: left;
+}
+.txtr {
+   text-align: right;
+}
+.floatl {
+   float: left;
+}
+.floatr {
+   float: right;
+}
+.clearfix {
+   clear: both;
+}
+.sticky {
+   position: fixed;
+   z-index: map-get($z-index, sticky);
+}
+.hide {
+   display: none;
+}
+.show,
+.block {
+   display: block;
+}
+.blockScroll {
+   overflow: hidden;
+   height: 100%;
+}
+.ilblock{
+   display: inline-block;
+}
+
+%ico {
+   vertical-align: middle;
+   fill: $color-1;
+}
+.ico {
+   @extend %ico;
+   width: $icoWidth;
+   height: $icoHeight;
+   &--small {
+      width: $icoWidth-small;
+      height: $icoHeight-small;
+   }
+}
+
+.dark-bg {
+   background-color: $color-bg2;
+   color: $color-txt2;
+}
+
+@for $w from 1 through 20 {
+   .w#{$w*5} {
+     width: $w*5%;
+   }
+}
+@media (max-width: $media-s){
+   @for $w from 1 through 20 {
+      .w#{$w*5} {
+        width: 70%;
+        min-width: 300px;
+       margin-left: auto;
+       margin-right: auto;
+       input,
+       select,
+       textarea,:not(input[type="submit"]){
+         max-width: 400px;
+         min-width: 300px;
+       }
+      }
+   }
+}
+
+@for $p from 1 through 10 {  
+   .p#{$p*5} {
+     padding: $p*5px;  
+   }
+}
+@for $pt from 1 through 10 {  
+   .pt#{$pt*5} {
+     padding-top: $pt*5px;  
+   }
+}
+@for $pr from 1 through 10 {  
+   .pr#{$pr*5} {
+     padding-right: $pr*5px;  
+   }
+}
+@for $pb from 1 through 10 {  
+   .pb#{$pb*5} {
+     padding-bottom: $pb*5px;  
+   }
+}
+@for $pl from 1 through 10 {  
+   .pl#{$pl*5} {
+     padding-left: $pl*5px;  
+   }
+}
+
+@for $m from 1 through 10 {  
+   .m#{$m*5} {
+     margin: $m*5px;  
+   }
+ }
+@for $mt from 1 through 10 {  
+   .mt#{$mt*5} {
+     margin-top: $mt*5px;  
+   }
+}
+@for $mr from 1 through 10 {  
+   .mr#{$mr*5} {
+     margin-right: $mr*5px;  
+   }
+}
+@for $mb from 1 through 10 {  
+   .mb#{$mb*5} {
+     margin-bottom: $mb*5px;  
+   }
+}
+@for $ml from 1 through 10 {  
+   .ml#{$ml*5} {
+     margin-left: $ml*5px;  
+   }
+}
+
+}
