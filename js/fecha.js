@@ -22,7 +22,7 @@ function date_heure(id)
         {
                 s = "0"+s;
         }
-        resultat = 'Hoy es' + ' '+jours[jour]+' '+'dia'+j+' '+'de'+''+mois[moi]+' '/* +annee+'son las'+h+':'+m+':'+s */;
+        resultat = '' + ' '+jours[jour]+' '+'dia'+''+j+' '+'de'+''+''+mois[moi]+' '/* +annee+'son las'+h+':'+m+':'+s */;
         document.getElementById(id).innerHTML = resultat;
         setTimeout('date_heure("'+id+'");','1000');
         return true;

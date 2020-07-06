@@ -2008,6 +2008,56 @@ body {
   color: #fdfcfd;
   top: 1rem;
   left: 2%;
+  opacity: 1;
+  -webkit-animation: baneranim 1.5s ease-in .5s;
+          animation: baneranim 1.5s ease-in .5s;
+}
+
+.baner h2 {
+  opacity: 1;
+  position: relative;
+  -webkit-animation: baneranimh 2s ease-in .5s;
+          animation: baneranimh 2s ease-in .5s;
+}
+
+@-webkit-keyframes baneranim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes baneranim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes baneranimh {
+  0% {
+    opacity: 0;
+    left: 200px;
+  }
+  100% {
+    opacity: 1;
+    left: 0px;
+  }
+}
+
+@keyframes baneranimh {
+  0% {
+    opacity: 0;
+    left: 200px;
+  }
+  100% {
+    opacity: 1;
+    left: 0px;
+  }
 }
 
 @media (max-width: 1390px) {
@@ -2213,11 +2263,15 @@ body {
 }
 
 .estudioadistancia {
-  background-image: url(../img/campus.jpg);
+  background-image: url(../img/campus4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fdfcfd;
+}
+
+.estudioadistancia .opacity {
+  background-color: rgba(53, 35, 35, 0.651);
 }
 
 .welcome {
@@ -2662,6 +2716,12 @@ body {
 .accesorapido {
   border: solid 1px #bdb7b8;
   margin-top: 45px;
+}
+
+@media (max-width: 768px) {
+  .accesorapido {
+    display: none;
+  }
 }
 
 .accesorapido li {

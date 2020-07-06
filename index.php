@@ -269,8 +269,9 @@ include("header.php");
 <section class="section estudioadistancia mb50">
     <br>
     <div class="">
+        <div class="txtc opacity">
         <h3 class="txtc">ESTUDIO A DISTANCIA</h3>
-        <div class="txtc">
+        
             <p>Los estudiantes pueden estudiar desde su casa o desde cualquier sitio en el que tengan conexión a
                 Internet. El centro formativo dispone de un campus virtual en el que se puede acceder a los contenidos
                 de los cursos y, además, interactuar con los demás estudiantes y también con el docente.
@@ -298,7 +299,7 @@ include("header.php");
 
             <div class="w30"></div>
             <div class="w30 prof bx1"><img class="w100" src="img/prof1.jpg" alt="">
-                <div class="coude w20"></div><?php
+               <?php
 include("iconsocial.php");
 ?>
             </div>

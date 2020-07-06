@@ -171,6 +171,27 @@ body{
     color: $color-9;
     top: 1rem;
     left: 2%;
+    opacity: 1;
+    h2{
+        opacity: 1;
+        position: relative;
+       
+        animation: baneranimh 2s ease-in .5s ;
+      
+    }
+    animation: baneranim 1.5s ease-in .5s ;
+    @keyframes baneranim {
+        0%   {opacity: 0;
+           
+        }
+        100% {opacity: 1;
+           
+        }
+      }
+      @keyframes baneranimh {
+        0%   {opacity: 0; left: 200px;}
+        100% {opacity: 1; left: 0px;}
+      }
     @media (max-width: $media-l){
         width: 60%;
     }
@@ -302,11 +323,15 @@ body{
 }
 
 .estudioadistancia{
-    background-image: url(../img/campus.jpg);
+    background-image: url(../img/campus4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: $color-9;
+    .opacity{
+        background-color: rgba(53, 35, 35, 0.651);
+    }
+   
   
 }
 
@@ -686,6 +711,7 @@ border-radius: 3px;
 .coude{
     position: absolute;
     border: 3px solid $color-4;
+  
     top: 0;
     right: 0;
   
@@ -715,6 +741,9 @@ border-radius: 3px;
 .accesorapido{
     border: solid 1px $color-8;
     margin-top: 45px;
+    @media (max-width: $media-s){
+        display: none;
+    }
 
 
     li{
