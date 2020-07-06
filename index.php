@@ -25,8 +25,8 @@ include("header.php");
 <section class="section">
     <div class="container maxw1 txtc pb40 pt40">
         <div class="container txtc ">
-            <h2>Bienvenidos a </h2>
-            <h2>Open Digital School</h2>
+            <h1>Bienvenidos a <br>
+            <apan>Open Digital School</apan></h1>
         </div>
 
         <div class="w60 center">
@@ -162,9 +162,9 @@ include("header.php");
         </div>
         <div class="flex flex--between mb40 maxw1 ">
 
-            <div class="w50 pl10 pr10 pb10">
+            <div class="w50 pl20 pr10 pb20">
                 <div class="">
-                    <h4>UNA FORMACION DE CALIDAD</h4>
+                    <h4  class="txtc pt20">UNA FORMACION DE CALIDAD</h4>
 
                     <P class="pt30 pb30">Las Instituciones de Educación Superior deben
                         anticiparse a los vertiginosos cambios de la
@@ -198,9 +198,9 @@ include("header.php");
             <div class="w50 formacion-img2">
 
             </div>
-            <div class="w50 pl10 pr10 pb10">
+            <div class="w50 pl20 pr20 pb20">
                 <div class="">
-                    <h4>INFRAESTRUCTURAS MODERNAS</h4>
+                    <h4 class="txtc pt10">INFRAESTRUCTURAS MODERNAS</h4>
 
                     <P class="pt30 pb30">La infraestructura educativa cuenta con aulas, aula de innovación, ambientes
                         para la administración, salón de uso múltiple, laboratorio, centro de cómputo, cocina, depósito,
@@ -273,7 +273,7 @@ include("header.php");
 <section class="section estudioadistancia mb50">
     <br>
     <div class="">
-        <div class="txtc opacity">
+        <div class="txtc opacity maxw1 center">
             <h3 class="txtc">ESTUDIO A DISTANCIA</h3>
 
             <p>Los estudiantes pueden estudiar desde su casa o desde cualquier sitio en el que tengan conexión a
