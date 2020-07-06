@@ -242,17 +242,22 @@ include("header.php");
         <div class="w60 center">
             <hr>
         </div>
+        <br>
         <div class="overflow">
-            <div class="flex flex--between vCenter mb40">
-                <div id="triangleleft" class="triangleleft triangle flex vCenter flex--center"><img
-                        src="icon/chevron-left-solid.svg" alt=""></div>
-                <div id="circle1" class="circle1 circle small-circle  bx1"></div>
-                <div id="circle2" class="circle2 circle medium-circle  bx1"></div>
-                <div id="circle3" class="circle3 circle big-circle  bx1"></div>
-                <div id="circle4" class="circle4 circle medium-circle  bx1"></div>
-                <div id="circle1" class="circle1 circle small-circle  bx1"></div>
-                <div id="trianglerigth" class="trianglerigth triangle flex vCenter flex--center"><img
-                        src="icon/chevron-right-solid.svg" alt=""></div>
+            <div class=" mb40">
+               
+                <div class="overflow">
+                    <div class="flex flex--evenly vCenter ">
+                        <div class="circle1 circl small-circle  bx1"></div>
+                        <div class="circle2 circl medium-circle  bx1">
+                        </div>
+                        <div class="circle3 circl big-circle  bx1"></div>
+                        <div class="circle4 circl medium-circle  bx1">
+                        </div>
+                        <div class="circle1 circl small-circle  bx1"></div>
+                    </div>
+                   
+                </div>
 
             </div>
 
@@ -270,8 +275,8 @@ include("header.php");
     <br>
     <div class="">
         <div class="txtc opacity">
-        <h3 class="txtc">ESTUDIO A DISTANCIA</h3>
-        
+            <h3 class="txtc">ESTUDIO A DISTANCIA</h3>
+
             <p>Los estudiantes pueden estudiar desde su casa o desde cualquier sitio en el que tengan conexión a
                 Internet. El centro formativo dispone de un campus virtual en el que se puede acceder a los contenidos
                 de los cursos y, además, interactuar con los demás estudiantes y también con el docente.
@@ -299,7 +304,7 @@ include("header.php");
 
             <div class="w30"></div>
             <div class="w30 prof bx1"><img class="w100" src="img/prof1.jpg" alt="">
-               <?php
+                <?php
 include("iconsocial.php");
 ?>
             </div>
@@ -342,8 +347,8 @@ include("iconsocial.php");
         </div>
 
     </div>
-    <div class="container txtc pt20 pb20"><a href="contacto.php"><button class="btn--cc w30"><span class="in-btn"></span> <span
-                class="txt-btn">Contacta con nosotros</span></button></a></div>
+    <div class="container txtc pt20 pb20"><a href="contacto.php"><button class="btn--cc w30"><span
+                    class="in-btn"></span> <span class="txt-btn">Contacta con nosotros</span></button></a></div>
 
     <div class="container newsletter flex flex--center">
         <div class="center flex flex--center pt10 pb10">

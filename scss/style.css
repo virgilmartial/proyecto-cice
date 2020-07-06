@@ -2193,6 +2193,11 @@ body {
   }
 }
 
+.circl {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 .circle1 {
   width: 100px;
   height: 100px;
@@ -2200,6 +2205,68 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.circle1:hover {
+  -webkit-animation: changer 2s ease-in-out 0s;
+          animation: changer 2s ease-in-out 0s;
+  background-image: url(../img/student4.jpg);
+}
+
+@-webkit-keyframes changer {
+  0% {
+    background-image: url(../img/student1.jpg);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  25% {
+    background-image: url(../img/student2.jpg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    background-image: url(../img/student3.jpg);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  75% {
+    background-image: url(../img/student4.jpg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    background-image: url(../img/student2.jpg);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@keyframes changer {
+  0% {
+    background-image: url(../img/student1.jpg);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  25% {
+    background-image: url(../img/student2.jpg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    background-image: url(../img/student3.jpg);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  75% {
+    background-image: url(../img/student4.jpg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    background-image: url(../img/student2.jpg);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
 }
 
 @media (max-width: 768px) {
@@ -2225,6 +2292,40 @@ body {
   background-size: cover;
 }
 
+.medium-circle:hover {
+  -webkit-animation: changer 2s ease-in-out 0s;
+          animation: changer 2s ease-in-out 0s;
+  background-image: url(../img/student4.jpg);
+}
+
+@keyframes changer {
+  0% {
+    background-image: url(../img/student1.jpg);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  25% {
+    background-image: url(../img/student2.jpg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    background-image: url(../img/student3.jpg);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  75% {
+    background-image: url(../img/student4.jpg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    background-image: url(../img/student2.jpg);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
 @media (max-width: 768px) {
   .medium-circle {
     width: 100px;
@@ -2246,6 +2347,40 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.big-circle:hover {
+  -webkit-animation: changer 2s ease-in-out 0s;
+          animation: changer 2s ease-in-out 0s;
+  background-image: url(../img/student4.jpg);
+}
+
+@keyframes changer {
+  0% {
+    background-image: url(../img/student1.jpg);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  25% {
+    background-image: url(../img/student2.jpg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    background-image: url(../img/student3.jpg);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  75% {
+    background-image: url(../img/student4.jpg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    background-image: url(../img/student2.jpg);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
 }
 
 @media (max-width: 768px) {
@@ -2271,7 +2406,7 @@ body {
 }
 
 .estudioadistancia .opacity {
-  background-color: rgba(53, 35, 35, 0.651);
+  background-color: rgba(53, 35, 35, 0.582);
 }
 
 .welcome {

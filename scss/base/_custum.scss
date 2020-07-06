@@ -269,7 +269,11 @@ body{
         height: 15px;
     }
 }
-
+.circl{
+    border-radius: 50%;
+    overflow: hidden;
+  
+}
 .circle1{
     width: 100px;
     height: 100px;
@@ -277,6 +281,19 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    &:hover{
+        animation: changer 2s ease-in-out 0s ;
+        background-image: url(../img/student4.jpg);
+       
+        @keyframes changer {
+            0%   { background-image: url(../img/student1.jpg); transform: scale(1.2);}
+            25%   { background-image: url(../img/student2.jpg); transform: scale(1);}
+            50%   { background-image: url(../img/student3.jpg); transform: scale(1.2);}
+            75%   { background-image: url(../img/student4.jpg); transform: scale(1);}
+            100%   { background-image: url(../img/student2.jpg); transform: scale(1.2);}
+          
+          }
+    }
     @media (max-width: $media-s){
         width: 60px;
         height: 60px;
@@ -295,6 +312,19 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    &:hover{
+        animation: changer 2s ease-in-out 0s ;
+        background-image: url(../img/student4.jpg);
+       
+        @keyframes changer {
+            0%   { background-image: url(../img/student1.jpg); transform: scale(1.2);}
+            25%   { background-image: url(../img/student2.jpg); transform: scale(1);}
+            50%   { background-image: url(../img/student3.jpg); transform: scale(1.2);}
+            75%   { background-image: url(../img/student4.jpg); transform: scale(1);}
+            100%   { background-image: url(../img/student2.jpg); transform: scale(1.2);}
+          
+          }
+    }
     @media (max-width: $media-s){
         width: 100px;
         height: 100px;
@@ -312,6 +342,19 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    &:hover{
+        animation: changer 2s ease-in-out 0s ;
+        background-image: url(../img/student4.jpg);
+       
+        @keyframes changer {
+            0%   { background-image: url(../img/student1.jpg); transform: scale(1.2);}
+            25%   { background-image: url(../img/student2.jpg); transform: scale(1);}
+            50%   { background-image: url(../img/student3.jpg); transform: scale(1.2);}
+            75%   { background-image: url(../img/student4.jpg); transform: scale(1);}
+            100%   { background-image: url(../img/student2.jpg); transform: scale(1.2);}
+          
+          }
+    }
     @media (max-width: $media-s){
         width: 130px;
         height: 130px;
@@ -329,7 +372,7 @@ body{
     background-size: cover;
     color: $color-9;
     .opacity{
-        background-color: rgba(53, 35, 35, 0.651);
+        background-color: rgba(53, 35, 35, 0.582);
     }
    
   
