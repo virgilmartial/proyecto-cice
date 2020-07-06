@@ -298,6 +298,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  
     &:hover{
         animation: changer 2s ease-in-out 0s ;
         background-image: url(../img/student4.jpg);
@@ -369,12 +370,14 @@ body{
             50%   { background-image: url(../img/student3.jpg); transform: scale(1.2);}
             75%   { background-image: url(../img/student4.jpg); transform: scale(1);}
             100%   { background-image: url(../img/student5.jpg); transform: scale(1.2);}
+           
           
           }
     }
     @media (max-width: $media-s){
         width: 130px;
         height: 130px;
+
     }
     @media (max-width: 512px){
         width: 80px;
