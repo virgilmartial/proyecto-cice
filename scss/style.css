@@ -1851,6 +1851,39 @@ body {
   top: -20px;
 }
 
+.logo:hover img {
+  -webkit-animation: diminuerlogo 2s ease-in-out 0s  forwards;
+          animation: diminuerlogo 2s ease-in-out 0s  forwards;
+}
+
+@-webkit-keyframes diminuerlogo {
+  0% {
+    width: 80px;
+  }
+  10% {
+    width: 50px;
+    top: -25px;
+  }
+  100% {
+    width: 50px;
+    top: -25px;
+  }
+}
+
+@keyframes diminuerlogo {
+  0% {
+    width: 80px;
+  }
+  10% {
+    width: 50px;
+    top: -25px;
+  }
+  100% {
+    width: 50px;
+    top: -25px;
+  }
+}
+
 .logo img {
   width: 80px;
 }
@@ -1862,12 +1895,22 @@ body {
 }
 
 .logosmall {
-  position: relative;
-  top: -20px;
+  -webkit-animation: diminuerlogo 5s ease-in-out 0s  forwards;
+          animation: diminuerlogo 5s ease-in-out 0s  forwards;
 }
 
-.logosmall img {
-  width: 50px;
+@keyframes diminuerlogo {
+  0% {
+    width: 80px;
+  }
+  10% {
+    width: 50px;
+    top: -25px;
+  }
+  100% {
+    width: 50px;
+    top: -25px;
+  }
 }
 
 .nav .nav-ul {
@@ -2305,7 +2348,7 @@ body {
             transform: scale(1.2);
   }
   25% {
-    background-image: url(../img/student2.jpg);
+    background-image: url(../img/student5.jpg);
     -webkit-transform: scale(1);
             transform: scale(1);
   }
@@ -2377,7 +2420,7 @@ body {
             transform: scale(1);
   }
   100% {
-    background-image: url(../img/student2.jpg);
+    background-image: url(../img/student5.jpg);
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
   }

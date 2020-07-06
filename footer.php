@@ -64,13 +64,13 @@ include("iconsocial.php");
 
 
  </body>
- <script src="js/slider.js"></script>
+
  <script src="js/horloge.js"></script>
  <script src="js/nav.js"></script>
  <script src="js/fecha.js"></script>
  <script src="js/buscador.js"></script>
  <script src="js/acordeon.js"></script>
- <script src="js/zoomfoto.js"></script>
+
  <script type="text/javascript">
 window.onload = date_heure('date_heure');
  </script>

@@ -5,7 +5,6 @@ include("header.php");
 <section class="section section1" id="section1">
     <div class="caroussel">
         <div class="baner w40 p5">
-            <div class="coude w20"></div>
             <h2>LA EDUCACÍON CAMBIA LA VIDA</h2>
             <p>“La educación es el arma más poderosa que puedes usar para cambiar el mundo” o “la educación es la llave
                 para abrir la puerta de oro de la libertad” son frases de Nelson Mandela y George Washington Carver, que

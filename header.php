@@ -49,7 +49,7 @@
 
             </div>
             <div class="flex flex--between pl10 pr10 ">
-                <a href="index.php" id="logo" class="logo flex vCenter"> <img src="img/logo.png" alt=""> <span><strong>Open
+                <a href="index.php" class="logo flex vCenter"> <img id="logo" class="imglogo" src="img/logo.png" alt=""> <span><strong>Open
                         Dgital School</strong> 
                         </span></a>
                 <div class="">

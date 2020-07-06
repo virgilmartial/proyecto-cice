@@ -6,7 +6,7 @@ body{
     width: 100%;
     position: fixed;
     background-color:rgba(14, 162, 172, 0.74);
-  
+   
   
 }
 #date_heure{
@@ -16,22 +16,39 @@ body{
 .logo{
     position: relative;
     top: -20px;
+    &:hover{
+        img{
+            animation: diminuerlogo 2s ease-in-out 0s  forwards;
+        @keyframes diminuerlogo {
+            0%   { width: 80px; }
+            10% {width: 50px;top: -25px;  }        
+            100% {width: 50px;top: -25px;  }      
+          }
+        }
+        
+
+    }
     img{
         width: 80px;
+        
         @media (max-width: $media-s){
             width: 50px;
         }
     }
+    
+   
 
 }
 
+
 .logosmall{
-    position: relative;
-    top: -20px;
-    img{
-        width: 50px;
+    animation: diminuerlogo 5s ease-in-out 0s  forwards;
+            @keyframes diminuerlogo {
+                0%   { width: 80px; }
+                10% {width: 50px;top: -25px;  }        
+                100% {width: 50px;top: -25px;  }      
+              }
     
-    }
 
 }
 
@@ -318,7 +335,7 @@ body{
        
         @keyframes changer {
             0%   { background-image: url(../img/student1.jpg); transform: scale(1.2);}
-            25%   { background-image: url(../img/student2.jpg); transform: scale(1);}
+            25%   { background-image: url(../img/student5.jpg); transform: scale(1);}
             50%   { background-image: url(../img/student3.jpg); transform: scale(1.2);}
             75%   { background-image: url(../img/student4.jpg); transform: scale(1);}
             100%   { background-image: url(../img/student2.jpg); transform: scale(1.2);}
@@ -351,7 +368,7 @@ body{
             25%   { background-image: url(../img/student2.jpg); transform: scale(1);}
             50%   { background-image: url(../img/student3.jpg); transform: scale(1.2);}
             75%   { background-image: url(../img/student4.jpg); transform: scale(1);}
-            100%   { background-image: url(../img/student2.jpg); transform: scale(1.2);}
+            100%   { background-image: url(../img/student5.jpg); transform: scale(1.2);}
           
           }
     }

@@ -25,4 +25,16 @@ var volverarriba = document.querySelector(".volverarriba")
 volverarriba.addEventListener("click",function(){
    body.scrollY = 0
 })
-      
+     
+
+
+var logo = document.getElementById("logo")
+window.onscroll = function() {diminuerlogo()};
+
+function diminuerlogo() {
+  if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+    logo.classList.add("logosmall")
+  } else {
+    logo.classList.remove("logosmall")
+  }
+}
