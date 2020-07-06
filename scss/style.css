@@ -2469,11 +2469,15 @@ body {
   margin: 1rem;
   border-radius: 50%;
   display: block;
+  -webkit-transition: ease-in-out .1s;
+  transition: ease-in-out .1s;
 }
 
 .socialprof a:hover {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+  -webkit-transition: ease-in-out .1s;
+  transition: ease-in-out .1s;
 }
 
 .pr {
@@ -2640,8 +2644,8 @@ body {
   right: 0;
 }
 
-.iconcontact .iconito :hover {
-  padding-left: 2px;
+.iconcontact a:hover {
+  padding-left: 4px;
 }
 
 .w-25 {
@@ -2653,6 +2657,27 @@ body {
   -webkit-transition: ease-in-out .4s;
   transition: ease-in-out .4s;
   border-radius: 3px;
+}
+
+.accesorapido {
+  border: solid 1px #bdb7b8;
+  margin-top: 45px;
+}
+
+.accesorapido li {
+  list-style: none;
+  padding: 1rem;
+}
+
+.accesorapido li:hover {
+  background-color: #19bab3;
+  -webkit-transition: ease-in-out .3s;
+  transition: ease-in-out .3s;
+}
+
+.accesorapido li:hover a {
+  -webkit-transform: translateX(1.5);
+          transform: translateX(1.5);
 }
 
 h5.sg {

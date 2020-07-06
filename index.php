@@ -341,8 +341,8 @@ include("iconsocial.php");
         </div>
 
     </div>
-    <div class="container txtc pt20 pb20"><button class="btn--cc w30"><span class="in-btn"></span> <span
-                class="txt-btn">Contacta con nosotros</span></button></div>
+    <div class="container txtc pt20 pb20"><a href="contacto.php"><button class="btn--cc w30"><span class="in-btn"></span> <span
+                class="txt-btn">Contacta con nosotros</span></button></a></div>
 
     <div class="container newsletter flex flex--center">
         <div class="center flex flex--center pt10 pb10">

@@ -12,44 +12,53 @@ include("header.php");
 <br>
 
 <section class="section1 ">
-    <div class="maxw1 center">
-        <div class="border">
-            <div class=" p10 txtc">
-                <h6>REUNION ACADEMICA CON LOS ALUMNOS</h6>
-                <small>Pubilicado el dia 20 de mayo 2020</small>
-            </div>
+    <div class="maxw1 center flex flex--between">
+        <div class="w70">
+            <div class="bx1">
+                <div class=" mt45 p10 txtc">
+                    <h6>REUNION ACADEMICA CON LOS ALUMNOS</h6>
+                    <small>Pubilicado el dia 20 de mayo 2020</small>
+                </div>
 
-            <p class="p20">
-                A ESCUELA OPENDIGITAL SCHOOL ,
-                CONVOCA A LOS ESTUDIANTES DE BANCAS Y FINANZAS A UNA REUNION INFORMATIVA SOBRE
-                <span>
-                    <span class="leermas" id="leermas">...leer mas.....</span>
-                    <span class="acordeon hide" id="acordeon">
-                        LAS MATRICULAS DEL SEMESTRE 2020 I PARA LA NUEVA CARRERA PROFESIONAL DE ADMINISTRACION EN
-                       Bncas y finanzas.
+                <p class="p20">
+                    A ESCUELA OPENDIGITAL SCHOOL ,
+                    CONVOCA A LOS ESTUDIANTES DE BANCAS Y FINANZAS A UNA REUNION INFORMATIVA SOBRE
+                    <span>
+                        <span class="leermas" id="leermas">...leer mas.....</span>
+                        <span class="acordeon hide" id="acordeon">
+                            LAS MATRICULAS DEL SEMESTRE 2020 I PARA LA NUEVA CARRERA PROFESIONAL DE ADMINISTRACION EN
+                            Bncas y finanzas.
 
-                        REUNION A DESARROLLARSE EL DIA MARTES 08 DE ABRIL DEL PRESENTE AÑO A HORAS 9:00 AM. EN EL
-                        AUDITORIUM DE LA FACULTAD DE CIENCIAS EMPRESARIALES.
-                        LA PRESENCIA DE TODOS SERA MUY AGRADECIDA
+                            REUNION A DESARROLLARSE EL DIA MARTES 08 DE ABRIL DEL PRESENTE AÑO A HORAS 9:00 AM. EN EL
+                            AUDITORIUM DE LA FACULTAD DE CIENCIAS EMPRESARIALES.
+                            LA PRESENCIA DE TODOS SERA MUY AGRADECIDA
 
-                        <br>
-                        <br>
+                            <br>
+                            <br>
 
-                        <strong class="txtc">EL DIRECTOR DE ESCUELA</strong>
+                            <strong class="txtc">EL DIRECTOR DE ESCUELA</strong>
+                        </span>
+
+
+
                     </span>
 
+                </p>
 
 
-                </span>
-
-            </p>
-
-
+            </div>
         </div>
+        <div class="w25 ">
+           
+           <?php
+   include("accesorapido.php");
+   ?>
+   
+           </div>
     </div>
     <br>
-    
-  
+
+
 
 
 </section>

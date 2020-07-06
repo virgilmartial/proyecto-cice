@@ -523,8 +523,10 @@ body{
         margin: 1rem;
         border-radius: 50%;
         display: block;
+        transition: ease-in-out .1s;
        &:hover{
            transform: rotate(45deg);
+           transition: ease-in-out .1s;
        }
     
      
@@ -690,9 +692,9 @@ border-radius: 3px;
 }
 
 .iconcontact{
-    .iconito{
-        :hover{
-            padding-left: 2px;
+    a{
+        &:hover{
+            padding-left: 4px;
         }
     }
 }
@@ -707,4 +709,25 @@ border-radius: 3px;
     transition: ease-in-out .4s;
     border-radius: 3px;
     
+}
+
+
+.accesorapido{
+    border: solid 1px $color-8;
+    margin-top: 45px;
+
+
+    li{
+        list-style: none;
+        padding: 1rem;
+        &:hover{
+        background-color: $color-2;
+        transition: ease-in-out .3s;
+        a{
+           transform: translateX(1.5);
+        }
+    }
+    }
+ 
+   
 }
