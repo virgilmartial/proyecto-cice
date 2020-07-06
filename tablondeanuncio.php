@@ -12,7 +12,7 @@ include("header.php");
 <br>
 
 <section class="section1 ">
-    <div class="maxw1 center flex flex--between">
+    <div class="maxw1 center flex flex--between p20">
         <div class="w70">
             <div class="bx1">
                 <div class=" mt45 p10 txtc">
