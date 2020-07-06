@@ -14,7 +14,7 @@ include("header.php");
 <section class="contact center">
     <div class="flex flex--between w60 center">
         <div class="w45 p5">
-            <form action="">
+            <form action="form_matricula_paso5.php">
                 <input type="text" name="name" id="nane" placeholder="Nomvre y Apelido">
                 <input type="text" name="name" id="nane" placeholder="Nomvre y Apelido">
                 <input type="tel" name="name" id="nane" placeholder="Telefono">

@@ -12,12 +12,12 @@ include("header.php");
 <br>
 <section class="section1 ">
 
-    <div class="maxw1 center flex flex--between">
+    <div class="maxw1 center flex flex--between pr20">
         <div class="w70">
 
             <div class=" mt15 p20">
                 <p class="">
-                    Open Digital School, junto con los otros colegios dependientes de la Universidad Nacional de Cuyo
+                    <span class="h3">O</span> pen Digital School, junto con los otros colegios dependientes de la Universidad Nacional de Cuyo
                     ha iniciado el proceso de transformación en escuela secundaria en el marco de la implementación de
                     la
                     Ley de Educación Nacional Nº 26.206/06.

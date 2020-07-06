@@ -11,8 +11,8 @@
 
 
          <div class="flex flex--center vCenter w25">
-             <a href="index.php" class="icomedio flex vCenter block"> <img src="img/logo.png" alt=""> </a><span>Open
-                 Digital Sshool</span>
+             <a href="index.php" class="icomedio flex vCenter block"> <img src="img/logo.png" alt=""> </a><span><strong>Open
+                 Digital School</strong> </span>
          </div>
          <br>
          <br>

@@ -6,7 +6,6 @@ include("headerMat.php");
     <div class=" bgc2 center txtc maxw1">
         <p>Open Digital School</p>
         <h3 class="">formulario de matricula</h3>
-
     </div>
 </div>
 <br>
@@ -54,11 +53,11 @@ include("headerMat.php");
 <div class="w60 center">
 
     <div class="">
-        <form class="" action="form_matricula_paso2.php">
+        <form class="" action="form_matricula_paso2.php" method="POST">
             <div class="flex flex--between">
                 <div class="w45">
                     <label for="nombre">Nombre <span class="etoile c4">*</span></label>
-                    <input type="text" class="form-control" id="nonbre" name="nonbre">
+                    <input type="text" class="form-control" id="nombre" name="nombre">
                 </div>
                 <div class="w45">
                     <label for="apellidos">Apellidos<span class="etoile c4">*</span></label>

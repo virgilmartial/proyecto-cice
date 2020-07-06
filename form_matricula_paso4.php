@@ -56,24 +56,24 @@ include("headerMat.php");
 
 <div class="w60 center bx1 p10">
 
-    <div class="w100 center">
-        <div>
+    <div class="w100 center p20">
+        <div class="">
             <h6>Informaciones personales del estudiante</h6>
             <div class="flex flex--between">
                 <div>
-                    <p>Nombre: <span>echo</span></p>
+                    <p>Nombre: <span>echo $nombre</span></p>
                 </div>
                 <div> <a href="">...</a></div>
             </div>
             <div class="flex flex--between">
                 <div>
-                    <p>Apellidos: <span>echo</span></p>
+                    <p>Apellidos: <span>echo $apellidos</span></p>
                 </div>
                 <div> <a href="">...</a></div>
             </div>
             <div class="flex flex--between">
                 <div>
-                    <p>sexo: <span>echo</span></p>
+                    <p>sexo: <span>echo $sexo</span></p>
                 </div>
                 <div> <a href="">...</a></div>
             </div>

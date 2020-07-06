@@ -2,11 +2,15 @@
 include("headerMat.php");
 ?>
 
+br>
+<div class=" center" id="section1">
+    <div class=" bgc2 center txtc maxw1">
+        <p>Open Digital School</p>
+        <h3>FORMULARIO DE REGISTRO</h3>
 
-<div class="maxw1 center bgc1 txtc">
-    <p>Open Digital School</p>
-    <h4>FORMULARIO DE REGISTRO</h4>
+    </div>
 </div>
+<br>
 <div class="w60 center">
 
     <div class="center w50 p20">

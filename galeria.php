@@ -32,6 +32,7 @@ include("header.php");
         <div class="img-galeria"> <img class="img-galeria-img" src="img/prof7.jpg" alt=""></div>
         <div class="img-galeria"> <img class="img-galeria-img" src="img/prof7.jpg" alt=""></div>
         <div class="img-galeria"> <img class="img-galeria-img" src="img/prof7.jpg" alt=""></div>
+        <div class="img-galeria"> <img class="img-galeria-img" src="img/prof7.jpg" alt=""></div>
       
         
 

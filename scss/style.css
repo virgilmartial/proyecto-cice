@@ -2918,6 +2918,14 @@ body {
           transform: translateX(1.5);
 }
 
+.cajaespecialidad img {
+  width: 100%;
+}
+
+.cajaespecialidad p {
+  width: 100%;
+}
+
 h5.sg {
   color: #A5A5A5;
   text-transform: uppercase;

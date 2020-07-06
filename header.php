@@ -49,9 +49,10 @@
 
             </div>
             <div class="flex flex--between pl10 pr10 ">
-                <a href="index.php" class="logo flex vCenter"> <img id="logo" class="imglogo" src="img/logo.png" alt=""> <span><strong>Open
-                        Dgital School</strong> 
-                        </span></a>
+                <a href="index.php" class="logo flex vCenter"> <img id="logo" class="imglogo" src="img/logo.png" alt="">
+                    <span><strong>Open
+                            Dgital School</strong>
+                    </span></a>
                 <div class="">
                     <a href="form_matricula_paso1.php" class="btn--a">Matriculate</a>
                     <a href="loginForm.php" class=" btn--bb"> Conectate</a>
