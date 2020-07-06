@@ -24,7 +24,7 @@ include("header.php");
             </form>
         </div>
         <div class="w45 p5 txtc">
-            <p><a class="iconito" href=""><img src="icon/location.svg" alt=""><a href="">   Calle Candelaria mora, 9
+            <p><a class="iconito" href=""><img src="icon/location.svg" alt=""><a href="https://www.google.com/maps/dir/40.3678631,-3.7557214/Calle+Candelaria+Mora,+9,+28045+Madrid/@40.3869682,-3.7436861,14z/data=!3m1!4b1!4m18!1m7!3m6!1s0xd42264f679641bb:0x18d000c52a87e797!2sCalle+Candelaria+Mora,+9,+28045+Madrid!3b1!8m2!3d40.3864019!4d-3.6932865!4m9!1m1!4e1!1m5!1m1!1s0xd42264f679641bb:0x18d000c52a87e797!2m2!1d-3.6932865!2d40.3864019!3e3" target="_blank">   Calle Candelaria mora, 9
                         Madrid, Spain</a></a></p>
             <p><a class="iconito" href=""><img src="icon/call.svg" alt=""><a href="tel:+34632587009">   694 43 54 43</a></a></p>
             <p><a class="iconito" href=""><img src="icon/whatsapp.svg" alt=""><a href="https://wa.me/34632587009" target = "_blank" >   Whatsapp</a></a></p>
